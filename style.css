@@ -91,11 +91,8 @@ button{
     .box{
         display: block;   
     }
-    .tamanho{
-        width: 88%;
+    h1{
+        margin-left: 30px;
     }
 
-    button {
-        width: 88%;
-    }
 }
