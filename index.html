@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header> 
+        <h1>Formulário de pesquisa freeCodeCamp</h1>
+        <P class="p">Obrigado por ter tempo para nos ajudar a melhorar a plataforma</P>
+    </header>
+
+    <form class="cadastro">
+        <div class="text margem">
+            <label class="form margem-texto"  for="nome">Nome </label>
+            <input id="nome" class="formulario tamanho" type="text" placeholder="nome" required>
+        </div>
+
+        <div class="margem">
+            <label class="form margem-texto"  for="email">Email</label>
+            <input id="email" class="formulario tamanho" type="email" placeholder="email" required> 
+        </div>
+
+        <div class="margem">
+            <label class="form margem-texto"  for="idade">Idade</label>
+            <input class="tamanho" id="idade" type="number" min="10" placeholder="idade" required>
+        </div>
+
+        <div class="margem">
+            <p class="margem-texto">Qual opção melhor descreve seu papel atual?</p>
+            <select class="tamanho" name="" id="" required>
+                <option disabled selected value="">selecionar</option>
+                <option value="o">Estudante</option>
+                <option value="o">full time job</option>
+                <option value="o">other</option>
+                <option value="o">full time leaner</option>
+            </select>
+        </div>
+
+        <div class="margem"> 
+            <p class="margem-texto">Você recomendaria freeCodeCamp <br> para um amigo?</p>
+            <label class="form"  for="claro"><input id="claro" class="caixinha" name="1" type="radio">claro</label>
+            <label class="form"  for="talvez"><input id="talvez" class="caixinha" name="1" type="radio">Talvez</label>
+            <label class="form"  for="nao"><input id="nao" class="caixinha" name="1" type="radio">Nao tenho certeza</label>   
+        </div>
+
+        <div class="margem">
+            <p class="margem-texto">Qual é o seu recurso favorito do freeCodeCamp?</p>
+            <select class="tamanho" name="" id="" required>
+                <option disabled selected value="">selecionar</option>
+                <option  value="o">Estudante</option>
+                <option value="o">full time job</option>
+                <option value="o">other</option>
+                <option value="o">full time leaner</option>
+            </select>
+        </div>
+        <p class="margem-texto">O que você gostaria de ver melhorado? (Verifique tudo o que se aplica)</p>
+        <section class="box">
+            <div class=""> 
+                
+                <label class="form" for="front"><input id="front" class="caixinha" type="checkbox"> Front-end Projects</label>
+                <label class="form"  for="back"><input id="back" class="caixinha" type="checkbox"> Back-end Projects</label>
+                <label class="form"  for="data"><input id="data" class="caixinha" type="checkbox"> Data Visualization</label>   
+                <label class="form"  for="challenges"><input id="challenges" class="caixinha" type="checkbox"> Challenges</label>
+                <label class="form"  for="open"><input id="open" class="caixinha" type="checkbox">Open Source Community</label>
+            </div>
+            <div class="margem"> 
+                <label class="form"  for="help"><input id="help" class="caixinha" type="checkbox">Gitter help rooms</label>   
+                <label class="form"  for="videos"><input id="videos" class="caixinha" type="checkbox">Videos</label>
+                <label class="form"  for="city"><input id="city"  class="caixinha" type="checkbox">City Meetups</label>
+                <label class="form"  for="wiki"><input id="wiki" class="caixinha" type="checkbox">Wiki</label>   
+                <label class="form"  for="forum"><input id="forum" class="caixinha" type="checkbox">Forum</label> 
+            </div>
+        </section>
+
+        <div class="margem"> 
+            <p class="margem-texto">Algum comentário ou sugestão?</p>
+            <textarea class="obs tamanho" name="" id="" cols="30" rows="10" placeholder="Deixa aqui a sua observaçao"></textarea>
+        </div>
+
+        <div class="margem">
+            <button class="">Enviar</button>
+        </div>   
+
+    </form>
+    
+
+</body>
+
+</html>
